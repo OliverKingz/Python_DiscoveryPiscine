@@ -1,6 +1,6 @@
-first_name = input("Hey, what's your first name? : ")
-last_name = input("And your last name? : ")
-print("Well, pleased to meet you", first_name, last_name)
+first_name = input("Hey, what's your first name? : ").strip()
+last_name = input("And your last name? : ").strip()
+print("Well, pleased to meet you " + first_name+ " " + last_name + ".")
 
 # input(prompt)
 # string.strip(characters)
