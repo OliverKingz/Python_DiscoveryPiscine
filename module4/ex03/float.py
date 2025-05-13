@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-nbr = input("Give me a number: ")
 
-if nbr.type == float(nbr):
-	print("This number is a decimal")
-elif nbr == int(nbr):
-	print("This number is an integer")
-# try:
-# except:
+nbr_str = input("Give me a number: ")
+
+try:
+	nbr_float = float(nbr_str)
+	if nbr_float == int(nbr_float):
+		print("This number is a integer")
+	else:
+		print("This number is an decimal")
+except ValueError:
+	print("Invalid input. Please enter a valid number.")
