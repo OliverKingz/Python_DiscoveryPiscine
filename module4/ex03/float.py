@@ -8,5 +8,6 @@ try:
 		print("This number is a integer")
 	else:
 		print("This number is an decimal")
+
 except ValueError:
-	print("Invalid input. Please enter a valid number.")
+	print("Error: Invalid input. Please enter a valid number.")
