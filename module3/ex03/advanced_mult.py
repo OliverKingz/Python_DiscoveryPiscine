@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 table_of = 0
 while table_of <= 10:
 	print(f"Table of {table_of}:", end=" ")
