@@ -17,9 +17,9 @@ import sys
 if len(sys.argv) == 2:
 	stdin = input("What was the parameter? ")
 
-	if stdin == sys.argv[1]
+	if stdin == sys.argv[1]:
 		print("Good job!")
-	else
+	else:
 		print("Nope, sorry...")
 else:
 	print("none")
